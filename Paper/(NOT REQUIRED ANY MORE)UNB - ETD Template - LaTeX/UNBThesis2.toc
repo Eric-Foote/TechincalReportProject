@@ -1,0 +1,23 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{ii}%
+\contentsline {chapter}{Dedication}{iii}%
+\contentsline {chapter}{Acknowledgments}{iv}%
+\contentsline {chapter}{Table of Contents}{v}%
+\contentsline {chapter}{List of Tables}{viii}%
+\contentsline {chapter}{List of Figures}{ix}%
+\contentsline {chapter}{Abbreviations}{x}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {chapter}{\numberline {2}Background Information}{2}%
+\contentsline {chapter}{\numberline {3}Methods}{3}%
+\contentsline {chapter}{\numberline {4}Discussion}{4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{5}%
+\contentsline {chapter}{Bibliography}{6}%
+\contentsline {chapter}{\numberline {A}this is Appendix A}{7}%
+\contentsline {section}{\numberline {A.1}this is section1}{7}%
+\contentsline {section}{\numberline {A.2}this is section2}{7}%
+\contentsline {chapter}{\numberline {B}this is Appendix B}{8}%
+\contentsline {section}{\numberline {B.1}this is section1}{8}%
+\contentsline {subsection}{\numberline {B.1.1}this is subsection}{8}%
+\contentsline {chapter}{Glossary}{9}%
+\cftpagenumbersoff {chapter}
+\contentsline {chapter}{Vita}{10}%

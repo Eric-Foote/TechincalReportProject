@@ -1,0 +1,52 @@
+\documentclass[12pt]{unbthesis}
+\usepackage[left=4cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[subfigure]{tocloft} % no number for Vita in ToC
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{footmisc}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\title{Comparing Machine Learning Algorithms on Time Series Data}
+\author{Eric Foote}
+\predegree{Previous Degrees (i.e. Degree, University, Year)\\
+Bachelor of Science, UNB, 2019}
+\degree{Bachelor of Computer Science}
+\supervisor{Dr. P.Mahanti,Department of Computer Science}
+\date{December, 2021}
+\copyrightyear{2021}
+\setlength\parindent{0pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{notation}{Notation}[section]
+\begin{document}
+\unbtitlepage
+\setcounter{secnumdepth}{3} \setcounter{tocdepth}{3}
+\pagenumbering{roman} \setcounter{page}{1}
+\include{abstract}
+
+
+\clearpage
+\doublespacing
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+%\include{bibliography}
+% changes default name Bibliography to References
+%\renewcommand{\bibname}{References}
+\bibliographystyle{amsplain}
+\bibliography{mybibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+\include{appendices2}
+\include{glossary}
+\include{vita}
+\end{document}
